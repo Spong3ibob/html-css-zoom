@@ -32,19 +32,20 @@ main{
     width: 90%;
     margin: auto;
 }
-.windows{
-    flex-wrap: wrap;
+.row{
     display: flex;
 }
+
 .windows{
+    flex-wrap: wrap;
     height: 140px;
-    width: calc(100%/7-5px);
+    width: calc(100% / 7 - 5px);
     margin: 10px 5px;
+    background-color: aliceblue;
 }
 img{
     height: 140px;
 }
-
 
 /* footer */
 footer{
