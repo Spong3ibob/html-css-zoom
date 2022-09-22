@@ -4,10 +4,54 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: black;
+    height: 100vh;
+}
 /* common */
+.icon{
+    color: white;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
 
 /* header */
-
+header{
+    height: 30px;
+}
+.view{
+    text-align: right;
+    margin: 5px;
+}
+.visione{
+    border-radius: 5%;
+}
 /* main */
+main{
+    height: calc(100%-120px);
+    background-color: blueviolet;
+    width: 90%;
+    margin: auto;
+}
 
 /* footer */
+footer{
+    height: 90px;
+    background-color: pink;
+}
+.comandi{
+    display: flex;
+    justify-content: space-around;
+}
+.input{
+    width: 20%;
+    text-align: left;
+}
+.output{
+    width: 60%;
+    text-align: center;
+}
+.leave{
+    width: 20%;
+    text-align: right;
+}
