@@ -36,15 +36,24 @@ main{
     display: flex;
 }
 
-.windows{
+.container{
     flex-wrap: wrap;
     height: 140px;
     width: calc(100% / 7 - 5px);
     margin: 10px 5px;
-    background-color: aliceblue;
 }
 img{
     height: 140px;
+    width: 179px;
+}
+.windows .nome{
+    height: 30px;
+    width: 30%;
+    background-color: aliceblue;
+}
+.nome{
+    position: absolute;
+    bottom: 0px;
 }
 
 /* footer */
