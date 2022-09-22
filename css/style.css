@@ -12,7 +12,7 @@ body{
 .icon{
     color: white;
     padding: 5px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(180,180,180,0.5);
 }
 
 /* header */
@@ -24,15 +24,27 @@ header{
     margin: 5px;
 }
 .visione{
-    border-radius: 5%;
+    border-radius: 5px;
 }
 /* main */
 main{
     height: calc(100%-120px);
-    background-color: blueviolet;
     width: 90%;
     margin: auto;
 }
+.windows{
+    flex-wrap: wrap;
+    display: flex;
+}
+.windows{
+    height: 140px;
+    width: calc(100%/7-5px);
+    margin: 10px 5px;
+}
+img{
+    height: 140px;
+}
+
 
 /* footer */
 footer{
