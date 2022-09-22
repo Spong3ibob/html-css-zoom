@@ -52,8 +52,9 @@ img{
     background-color: aliceblue;
 }
 .nome{
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    left: 20px;
+    top: 20px;
 }
 
 /* footer */
