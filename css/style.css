@@ -67,34 +67,22 @@ footer{
     background-color: #222222;
     color: white;
 }
-.comandi{
+.nav{
     display: flex;
     justify-content: space-around;
 }
-.input{
-    width: 20%;
-    text-align: left;
-}
-.output{
-    width: 60%;
-    text-align: center;
-}
-.leave{
-    width: 20%;
-    text-align: right;
-}
  .comandi-sinistra{
     display: flex;
-    align-items: center;
     justify-content: left;
+    max-width: calc(100% - 80%); 
 }
 .comandi-centro{
     display: flex;
     justify-content: center;
+    max-width: calc(100% - 40%); 
 }
 .comandi-destra{
     display: flex;
     justify-content: right;
-    background-color: #111111;
-    color: red;
+    max-width: calc(100% - 80%);
 }
