@@ -46,16 +46,15 @@ img{
     height: 140px;
     width: 179px;
 }
-.windows .nome{
+ .nome{
     height: 30px;
     width: 30%;
     background-color: aliceblue;
-}
-.nome{
-    position: relative;
+    position: absolute;
     left: 20px;
     top: 20px;
 }
+
 
 /* footer */
 footer{
