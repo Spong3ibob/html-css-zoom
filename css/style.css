@@ -14,10 +14,18 @@ body{
     padding: 5px;
     background-color: rgba(180,180,180,0.5);
 }
+.nome{
+    background-color: rgba(180,180,180,0.5);
+    color: white;
+    padding:2px;
+}
 
 /* header */
 header{
     height: 30px;
+    position: fixed;
+    z-index: 100;
+    right: 0;
 }
 .view{
     text-align: right;
@@ -41,25 +49,23 @@ main{
     height: 140px;
     width: calc(100% / 7 - 5px);
     margin: 10px 5px;
+    position: relative;
+}
+.nome{
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 img{
     height: 140px;
     width: 179px;
 }
- .nome{
-    height: 30px;
-    width: 30%;
-    background-color: aliceblue;
-    position: absolute;
-    left: 20px;
-    top: 20px;
-}
-
 
 /* footer */
 footer{
     height: 90px;
-    background-color: pink;
+    background-color: #222222;
+    color: white;
 }
 .comandi{
     display: flex;
@@ -76,4 +82,19 @@ footer{
 .leave{
     width: 20%;
     text-align: right;
+}
+ .comandi-sinistra{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.comandi-centro{
+    display: flex;
+    justify-content: center;
+}
+.comandi-destra{
+    display: flex;
+    justify-content: right;
+    background-color: #111111;
+    color: red;
 }
